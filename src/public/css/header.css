@@ -1,0 +1,63 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .info-store {
+    background-color: #d9ac84;
+    color: #a6263e;
+    text-align: center;
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding: 15px;
+  }
+  
+  header {
+    background-color: #a6263e;
+    height: 150px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+  
+  .link-header {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .link-header:hover {
+    color: #f2c230;
+  }
+  
+  p {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  input {
+    width: 700px;
+    border-radius: 15px;
+    padding: 10px;
+    color: #000000;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  
+  li {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  

@@ -1,0 +1,25 @@
+{
+  "name": "kopenhagen-store",
+  "version": "1.0.0",
+  "description": "projeto para aprimorar minhas habilidades",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogervalentim/kopenhagen-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogervalentim/kopenhagen-store/issues"
+  },
+  "homepage": "https://github.com/rogervalentim/kopenhagen-store#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
