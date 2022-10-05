@@ -30,6 +30,16 @@
     cursor: pointer;
     transition: all 0.3s;
   }
+
+  span {
+    color:#fff;
+  }
+
+  /* icon-colors */
+  .fa-regular,.fa-light {
+    color:aliceblue;
+    width:50px;
+  }
   
   .link-header:hover {
     color: #f2c230;
@@ -40,10 +50,11 @@
     text-decoration: none;
   }
   
-  input {
+  .input-header {
     width: 700px;
     border-radius: 15px;
     padding: 10px;
+    height: 55px;
     color: #000000;
   }
   

@@ -1,0 +1,53 @@
+footer {
+    background-color: #a6263e;
+    margin-top: 100px;
+}
+
+/* 
+form {
+    margin-top:100px;
+} */
+
+.footer-container {
+    display: flex;
+    justify-content:space-around;
+}
+
+.fa-brands {
+    color: aliceblue;
+}
+
+label {
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.button-footer {
+    border:#fff;
+    color:#fff;
+    background-color: #a6263e;
+
+}
+
+.list-footer {
+    display: block;
+    list-style: none;
+}
+
+.title {
+    color:#fff
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.link-footer:hover {
+    color: #fff;
+}
+
+.links-footer {
+    display: flex;
+}

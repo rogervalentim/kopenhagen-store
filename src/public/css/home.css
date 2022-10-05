@@ -3,19 +3,41 @@
     justify-content: center;
     font-family: "Roboto",sans-serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 100px;
     text-transform: uppercase;
 }
 
-.products {
+.name {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    color: #000000;
+    font-size: 15px;
 }
 
-.name {
-    color: #000000;
-    font-size: 25px;
+
+.price {
+    display: flex;
+    justify-content: center;
+    color:#000000;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.info-product {
+    display: flex;
+    justify-content:center;
+}
+
+.info-product-container {
+    margin-top: 50px;
+}
+
+.bag-container {
+    margin-left: 200px;
+    width:100px;
+    height:40px;
+    background-color: #F1F1F1;
 }
 
 .plus, .minus {
@@ -23,10 +45,43 @@
     height: 20px;
 }
 
-.bag-cart {
-    background-color:#F1F1F1;
+.products-kits {
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
 }
 
-.info-product {
+.name-kits {
+    display: flex;
+    justify-content: center;
+    font-weight:600 ;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.kits {
     margin-left: 20px;
+}
+
+.kopenhagen {
+    background-color:#F1F1F1 ;
+}
+
+.title-vitrine {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+.kopenhagen-vitrine {
+    display: flex;
+    justify-content: center;
+}
+
+.kopenhagen-slide {
+    margin-left: 20px;
+    margin-top: 50px;
 }
