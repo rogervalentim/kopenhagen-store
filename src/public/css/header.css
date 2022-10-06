@@ -38,9 +38,12 @@
   /* icon-colors */
   .fa-regular,.fa-light {
     color:aliceblue;
-    width:50px;
   }
-  
+
+  .hamburguer {
+    display: none;
+  }
+
   .link-header:hover {
     color: #f2c230;
   }
@@ -71,4 +74,27 @@
     font-size: 18px;
   }
   
+@media (max-width:375px){
+  header {
+    height:70px;
+  }
+
+  .fa-regular .fa-headphones,span,input,ul {
+    display: none;
+  }
+
+  .icons-header {
+    display: none;
+  }
   
+  .hamburguer {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+  }
+}
