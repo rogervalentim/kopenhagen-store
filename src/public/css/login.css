@@ -1,0 +1,93 @@
+body {
+  background-color: aliceblue;
+}
+
+.imagem-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.kopenhagen-logo {
+  width: 200px;
+}
+
+.title-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(51, 60, 63);
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+input {
+  width: 400px;
+  height: 48px;
+  background-color: white;
+  border-bottom-color: rgb(111, 70, 19);
+}
+
+.btns-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-continue {
+  margin-top: 20px;
+  background-color: rgb(146, 104, 54);
+  border-color: rgb(146, 104, 54);
+  font-weight: 600;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 4px;
+  color: aliceblue;
+}
+
+.btn-google {
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  height: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-facebook {
+  background-color: #4267b2;
+  border-radius: 4px;
+  height: 40px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  border: 1px solid #4267b2;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-apple {
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

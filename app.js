@@ -3,6 +3,7 @@ const app = express();
 const port = 3000;
 const path =require('path')
 const homeRoute = require("./src/routes/homeRoute");
+const loginRoute = require("./src/routes/loginRoute");
 
 // Configura pasta estática para acesso externo
 app.use(express.static(path.join(__dirname,"./src/public")));
@@ -15,6 +16,7 @@ app.set("views",(path.join(__dirname,"./src/views")));
 app.use(express.json());
 
 app.use(homeRoute);
+app.use(loginRoute)
 
 app.listen(port, () => {
   console.log("Estamos rodando na porta: " + port);
